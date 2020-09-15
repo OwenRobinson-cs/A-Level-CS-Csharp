@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtithmeticOperators", "AtithmeticOperators\AtithmeticOperators.csproj", "{DDD37E5E-2E26-4E88-8809-B1E22829CDC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD37E5E-2E26-4E88-8809-B1E22829CDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD37E5E-2E26-4E88-8809-B1E22829CDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD37E5E-2E26-4E88-8809-B1E22829CDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD37E5E-2E26-4E88-8809-B1E22829CDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDD3EB5F-942F-4E77-BFA4-F9848F9B030F}
+	EndGlobalSection
+EndGlobal

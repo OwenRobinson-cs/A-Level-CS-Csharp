@@ -1,0 +1,7 @@
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\bin\Debug\AtithmeticOperators.exe.config
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\bin\Debug\AtithmeticOperators.exe
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\bin\Debug\AtithmeticOperators.pdb
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\obj\Debug\AtithmeticOperators.csprojAssemblyReference.cache
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\obj\Debug\AtithmeticOperators.csproj.CoreCompileInputs.cache
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\obj\Debug\AtithmeticOperators.exe
+C:\Users\owenr\Desktop\A-Level-CS-Csharp\AtithmeticOperators\AtithmeticOperators\obj\Debug\AtithmeticOperators.pdb
