@@ -11,6 +11,7 @@ namespace RandomNumberGenerator
         static void Main(string[] args)
         {
             //Maths Quiz thing
+            const int maxScore = 10;
             int num1;
             int num2;
             int userInput;
@@ -30,7 +31,7 @@ namespace RandomNumberGenerator
                 Console.ForegroundColor = ConsoleColor.DarkRed;
             }
             Console.Clear();
-            while (score < 10)
+            while (score < maxScore)
             {
                 num1 = RNG.Next(minNum, maxNum);
                 num2 = RNG.Next(minNum, maxNum);
@@ -43,6 +44,13 @@ namespace RandomNumberGenerator
                 if (num1 + num2 == userInput)
                 {
                     score++;
+                    Console.WriteLine("Correct.");
+                    AnyKey();
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect.");
+                    AnyKey();
                 }
                 Console.Clear();
                 questionsAsked++;
