@@ -19,7 +19,6 @@ namespace CheckDigitForms
             
             LBL_Output.Text = null;
         }
-
         private void BTN_Submit_Click(object sender, EventArgs e)
         {
             try
@@ -29,38 +28,28 @@ namespace CheckDigitForms
                 int inputtedCheckSum;
                 int lastDigit;
                 // Take input
-
                 input = TXT_Input.Text;
-
                 // Remove last digit from input 
-
                 // Find last digit
                 lastDigit = input.Length - 1;
-
                 int.TryParse(input[lastDigit].ToString(), out inputtedCheckSum);
                 input = input.Remove(input.Length - 1, 1);
-
                 // Compare to removed digit
                 Console.Beep();
                 if (CalcualteCheckDigit(input) != inputtedCheckSum)
                 {
-
                     LBL_Output.Text = "Invalid Check Digit.";
                 }
                 else
                 {
-
                     LBL_Output.Text = "Valid Check Digit";
                 }
-
                 // Store in history
-
                 LBL_History.Text += "\n " + input + inputtedCheckSum;
             }
             catch
             {
-                Console.Beep();
-                LBL_Output.Text = "ERROR, INVALID INPUT.";
+                ErrorMessage();
             }
         }
         private void BTN_GenerateCheckDigit_Click(object sender, EventArgs e)
@@ -78,16 +67,12 @@ namespace CheckDigitForms
                 }
                 else
                 {
-                    Console.Beep();
-                    Console.Beep();
-                    LBL_Output.Text = "ERROR, INVALID INPUT.";
+                    ErrorMessage();
                 }
             }
             catch
             {
-                Console.Beep();
-                Console.Beep();
-                LBL_Output.Text = "ERROR, INVALID INPUT.";
+                ErrorMessage();
             }
         }
         private int CalcualteCheckDigit(string ean)
@@ -124,7 +109,12 @@ namespace CheckDigitForms
 
             return checkDigit;
         }
-
+        private void ErrorMessage()
+        {
+            Console.Beep();
+            Console.Beep();
+            LBL_Output.Text = "ERROR, INVALID INPUT.";
+        }
         private void BTN_Clear_Click(object sender, EventArgs e)
         {
             LBL_History.Text = "History:";
