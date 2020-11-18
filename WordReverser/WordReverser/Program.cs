@@ -23,7 +23,7 @@ namespace WordReverser
             Console.WriteLine(word);
 
             // Output number of words
-            Console.WriteLine("{0} words.", NumberOfWOrds(word));
+            Console.WriteLine("{0} words.", NumberOfWords(word));
             Console.ReadKey();
         }
 
@@ -39,7 +39,7 @@ namespace WordReverser
             return output;
         }
 
-        static string NumberOfWOrds(string input)
+        static string NumberOfWords(string input)
         {
             int numberOfWords = 1;
 
